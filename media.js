@@ -13,8 +13,14 @@ var timeCalculator = function (value) {
     return minute + ":" + second;
 };
 
+<<<<<<< HEAD
 //start wavesurfer object 
 wavesurfer = WaveSurfer.create({
+=======
+var wavesurfer = Object.create(WaveSurfer);
+
+wavesurfer.init({
+>>>>>>> a5f69f636346dd58856b23e7518278f0ce24c6e2
     container: "#wave",
     waveColor: "#7D7D7D", // тут можно поменять фоновый цвет плеера
     progressColor: "#D5A216", // тут можно поменять цвет заполнения
@@ -22,6 +28,11 @@ wavesurfer = WaveSurfer.create({
     scrollParent: false
 });
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> a5f69f636346dd58856b23e7518278f0ce24c6e2
 //загружаем нужную песню
 wavesurfer.load("sound.mp3");
 
